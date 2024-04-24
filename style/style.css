@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-weight: 500;
+}
+nav .pages .page{
+    margin-right: 20px;
+    
+    text-decoration: none;
+    color: black;
+} 
+nav .pages .button{
+    background-color: black;
+    color: white;
+    font-size: xx-small;
+    padding: 7px 15px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pricing {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.pricing h1{
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: xx-large;
+}
+.pricing h2{
+    font-size: small;
+    opacity: 0.4;
+    font-weight: 600;
+    margin-top: 20px;}
+#time{
+    margin-top: 20px;
+    background-color: #8282821c;
+    border: transparent;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 7px;
+    
+}
+.switch{
+    border: transparent;
+    cursor: pointer;
+    padding: 7px 10px;
+    font-size: x-small;
+    border-radius:7px ;
+
+}
+.active,
+.switch:hover {
+    background-color:white;
+
+}
+
+
+
+    .pricing .plans{
+display: flex;
+margin-top: 20px;
+width: 70%;
+justify-content: space-evenly;
+height: 300px;
+}
+.plan{
+    padding: 30px;
+    width: 30%;
+    box-shadow: 0px 0px 18px 2px #00000021;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        font-size: x-small;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.pricing .plan span{
+    font-size: xx-large;
+}
+.pricing .plan ul{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: small;
+    color: #828282;
+}
+.pricing .plan button{
+    width: 95%;
+    background-color: black;
+    color: white;
+    align-self: center;
+height: 30px;
+    border: transparent ;
+    border-radius: 5px;
+    font-size: xx-small;
+    cursor: pointer;
+}
+.faq{
+    margin: 100px;
+}
+.faq h1{
+    margin-bottom: 30px;
+}
+.faq .question{
+    margin-top: 20px;
+    position: relative;
+}
+.faq .answer{
+    opacity: .6;
+    margin:20px 0 ;
+}
+.faq .question::before{
+    content: "+";
+    position: absolute;
+    color: #828282;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    font-size: x-large;
+    font-weight: bold;
+    right: 0;
+
+}
+.break{
+    width:90%;
+    height: 1px;
+    background-color: #E6E6E6;
+    margin-left: 5%;
+}
+footer{
+    margin: 5%;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon{
+    text-decoration: none;
+    margin-right:10px;
+    color: #828282;
+}
+.left , .topics{
+width: 40%;
+}
+.topics{
+    display: flex;
+    justify-content: space-between;
+ }
+footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 500;
+}
+footer ul li{
+    color: #454545;
+    font-size: smaller;
+}
